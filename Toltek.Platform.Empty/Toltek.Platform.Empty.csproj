@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web"> 
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>9ea4e81c-e779-4a8d-9976-ff37b65fc1b7</UserSecretsId>
+    <EnableMSDeployAppOffline>True</EnableMSDeployAppOffline>
+  </PropertyGroup>  
+  <ItemGroup>
+    <Compile Remove="Controllers\AzureController.cs" />
+  </ItemGroup>  
+  <ItemGroup>
+    <_WebToolingArtifacts Remove="Properties\PublishProfiles\Afsu.pubxml" />
+  </ItemGroup> 
+  <ItemGroup> 
+    <PackageReference Include="Serilog.Sinks.Seq" />
+    <PackageReference Include="Toltek.Web.DataTable" />
+    <PackageReference Include="Toltek.Diagnostics.Telemetry.Serilog" />
+    <PackageReference Include="Toltek.Platform.App" />
+    <PackageReference Include="Toltek.Platform.Data" />
+    <PackageReference Include="Toltek.Platform.SmartAdmin" />
+  </ItemGroup> 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>  
+</Project>

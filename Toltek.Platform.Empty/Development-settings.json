@@ -1,0 +1,14 @@
+﻿{
+  "App": {
+    "FilesPath": "C:\\Toltek\\Files"
+  },
+  "Logging": {
+    "IncludeScopes": true,
+    "LogLevel": {
+      "Default": "Warning",
+      "System": "Warning",
+      "Microsoft": "Warning",
+      "Microsoft.AspNetCore.Authentication": "Information"
+    }
+  }
+}

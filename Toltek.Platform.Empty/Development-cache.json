@@ -1,0 +1,7 @@
+{
+  "CacheOptions": {
+    "CacheEnable": true,
+    "Distributed": false,
+    "CacheType": "Memory"
+  }
+}
