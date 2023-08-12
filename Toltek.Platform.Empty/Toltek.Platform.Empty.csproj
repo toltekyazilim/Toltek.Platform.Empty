@@ -10,13 +10,13 @@
   <ItemGroup>
     <_WebToolingArtifacts Remove="Properties\PublishProfiles\Afsu.pubxml" />
   </ItemGroup> 
-  <ItemGroup> 
-    <PackageReference Include="Serilog.Sinks.Seq" />
-    <PackageReference Include="Toltek.Web.DataTable" />
-    <PackageReference Include="Toltek.Diagnostics.Telemetry.Serilog" />
-    <PackageReference Include="Toltek.Platform.App" />
-    <PackageReference Include="Toltek.Platform.Data" />
-    <PackageReference Include="Toltek.Platform.SmartAdmin" />
+  <ItemGroup>
+	  <PackageReference Include="Serilog.Sinks.Seq" Version="5.2.1" />
+	  <PackageReference Include="Toltek.Web.DataTable" Version="2.6.0" />
+	  <PackageReference Include="Toltek.Diagnostics.Telemetry.Serilog"  Version="2.6.0" />
+	  <PackageReference Include="Toltek.Platform.App"  Version="0.1.11"  />
+	  <PackageReference Include="Toltek.Platform.Data"  Version="0.1.11"  />
+	  <PackageReference Include="Toltek.Platform.SmartAdmin"  Version="0.1.11"  />
   </ItemGroup> 
   <ItemGroup>
     <Folder Include="Models\" />
